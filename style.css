@@ -143,3 +143,15 @@ nav a:hover {
     color: #333;
     line-height: 1.5;
 }
+
+/** carousel block */
+.carousel {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.image-container {
+    display: flex;
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
+}
